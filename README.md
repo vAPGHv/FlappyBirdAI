@@ -1,0 +1,2 @@
+# FlappyBirdAI
+ии для FlappyBird
