@@ -1,2 +1,1 @@
-# FlappyBirdAI
-ии для FlappyBird
+AI 4 Flappy Bird
