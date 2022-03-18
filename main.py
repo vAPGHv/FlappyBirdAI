@@ -133,19 +133,19 @@ while True:
             randl4AI2 = choice(randl4AI) # random number from the list
             print(f"{Fore.GREEN}Верно: {randl4AI2}{Style.RESET_ALL}")
             goodoperacionscore += 1
-            print(Style.RESET_ALL + f"Номер операции: {operacionscore}")
+            print(Style.RESET_ALL + f"Operation num: {operacionscore}")
         else:
             if AIscore >= 6:
-                print(Fore.RED + f"Неверный {Fore.BLUE}(помощь){Fore.RED} : {randl4AI2}")
-                print(Style.RESET_ALL + f"Номер операции: {operacionscore}")
+                print(Fore.RED + f"Incorrect {Fore.BLUE}(help){Fore.RED} : {randl4AI2}")
+                print(Style.RESET_ALL + f"Operation num: {operacionscore}")
                 operacionscore += 1
                 randl4AI2 = 4
                 AIscore = 0
             else:
                 operacionscore += 1
-                print(Fore.RED + f"Неверный: {randl4AI2}")
+                print(Fore.RED + f"Incorrect: {randl4AI2}")
                 randl4AI2 = choice(randl4AI)
-                print(Style.RESET_ALL + f"Номер операции: {operacionscore}")
+                print(Style.RESET_ALL + f"Operation num: {operacionscore}")
                 AIscore += 1
 
     """------=gravitacion and motion=------"""
